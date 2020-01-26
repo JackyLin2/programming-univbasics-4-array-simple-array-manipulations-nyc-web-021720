@@ -30,6 +30,7 @@ def using_concat(my_favorite_things, more_favs)
   all_my_fav = my_favorite_things.concat(more_favs)
 end 
 
+<<<<<<< HEAD
   def using_insert(list_of_programming_languages,another_language)
    new_array = list_of_programming_languages.insert(4,"Python")
   end
@@ -49,3 +50,10 @@ end
 def using_delete_at(famous_robots, deleted_robots)
   deleted_robots = famous_robots.delete("Robocop")
 end
+=======
+def using_insert(array,string)
+  
+
+
+  
+>>>>>>> 1767c69ca8aa6920d9e2e44d04e1a3c2e69f28b7
